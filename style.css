@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box; /* we use this because we can keep padding within a certain box or width */
+}
+
+body{
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  margin : 0;
+  
+
+}
+
+header{
+    background-color: rgb(180, 180, 82);
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+header a{
+color : white;
+
+}
+
+header ul{
+    list-style: none;
+    display:flex;
+    margin:0;
+    padding: 0;
+}
+
+#menu li{
+    padding: 10px;
+    
+}
+
+#social-links li{
+    padding: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    margin: 0 auto; /* Using this we can give gaps to the items using flex */
+    font-size: 30px;
+
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+}
+.service-box{
+    border : 1px solid #eee;
+    flex-basis: 32%;
+    padding: 10px;
+    max-width: 370px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.service-box img{
+    width: 100%;
+}
+
+.service-box h3{
+    margin-top: 12px;
+}
+
+.service-box p{
+    margin:0 0 12px;
+}
+.click-readmore{
+    align-self: flex-start;
+    margin-top: auto;
+}
+.click-readmore a{
+    background-color: grey;
+    border: 1px solid transparent;
+    color: aliceblue;
+    padding: 2px 10px;
+    display: block;
+}
+
+.click-readmore a:hover{
+    background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+}
+#main{
+    display: flex;
+   
+   
+    
+
+}
+
+aside{
+    flex: 0 0 20vw;/* flex-grow flex-shrink flex-basis*/
+    background-color: antiquewhite;
+    
+}
+
+aside ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+   
+}
+
+aside ul li{
+    padding : 10px;
+    display: block;
+    
+}
+
+aside ul a{
+    color: rgb(180, 180, 82); 
+}
+/* aside img{
+    width : 100%;
+} */
+article{
+    padding: 15px;
+}
+
+footer{
+    background-color: rgb(180, 180, 82);
+    text-align: center; 
+    color: aliceblue;
+    padding: 15px;
+}
+
+
+
